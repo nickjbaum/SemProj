@@ -13,6 +13,7 @@ msg = 'The tank is half full. Please refill.'
 
 GPIO.setmode(GPIO.BOARD)
 
+#Pin numbering
 BUTTON = 7
 TRIG = 38
 ECHO = 40
