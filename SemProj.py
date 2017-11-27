@@ -8,7 +8,7 @@ server = smtplib.SMTP('smtp.gmail.com',587)
 server.ehlo()
 server.starttls()
 server.ehlo()
-server.login<"<user>","<Pass>")
+server.login("<user>","<pass>")
 msg = 'The tank is half full. Please refill.'
 
 GPIO.setmode(GPIO.BOARD)
